@@ -648,6 +648,7 @@ public class WearManager {
                                 }
                                 onConnectedInitialCapabilitiesReceived();
                             }
+                            onConnectedInitialCapabilitiesReceived();
                         } else {
                             Log.e(TAG, "getAllCapabilities(): Failed to get all the capabilities");
                         }
